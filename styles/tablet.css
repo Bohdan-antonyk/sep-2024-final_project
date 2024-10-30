@@ -1,0 +1,98 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+
+    .main .mobile-photo {
+        display: none;
+    }
+
+    .main .wrapper-buttons {
+        width: 100%;
+    }
+
+    .main .wrapper-buttons .send_request {
+        margin-bottom: 20px;
+        width: 250px;
+    }
+
+    .main .wrapper-buttons .download_cv {
+        width: 250px;
+    }
+
+    .choice .wrapper-benefits {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .success {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .success .right-side-success {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .success .right-side-success p {
+        text-align: center;
+    }
+
+    .prices {
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+
+    .prices .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .support {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .support h4 {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-right: 25px;
+    }
+
+    .portfolio h2 {
+        text-align: center;
+    }
+
+    .worldwide .container {
+        padding-bottom: 120px;
+    }
+
+    .worldwide h2 {
+        margin-bottom: 80px;
+    }
+
+    .worldwide .additions p {
+        font-size: 20px;
+    }
+
+    .blog,
+    .choice {
+        padding: 80px 0;
+    }
+
+    .blog h2 {
+        text-align: center;
+    }
+
+    .blog h2 {
+        margin-bottom: 60px;
+    }
+
+    footer {
+        margin-top: 0;
+        margin-left: 0;
+        height: 120px;
+    }
+}

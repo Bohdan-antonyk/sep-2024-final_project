@@ -1,0 +1,167 @@
+@media screen and (max-width: 480px) {
+
+    body {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    .main {
+        padding: 50px 0;
+    }
+
+    .main .full-screen-photo {
+        display: none;
+    }
+
+    .main .wrapper-buttons {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main .send_request {
+        margin: 0 0 20px 0;
+        width: calc(100% - 10px);
+    }
+
+    .main .download_cv {
+        width: calc(100% - 10px);
+    }
+
+    .main .wrapper-social_media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 0;
+    }
+
+    .success {
+        flex-wrap: wrap;
+        padding: 50px 10px;
+    }
+
+    .success img {
+        max-width: calc(100% - 10px);
+    }
+
+    .success .left-side-success {
+        margin-right: 0;
+    }
+
+    .success .right-side-success h3 {
+        font-size: 56px;
+    }
+
+    .success .right-side-success h4 {
+        font-size: 42px;
+    }
+
+    .success .right-side-success p {
+        font-size: 20px;
+    }
+
+    .choice {
+        padding: 60px 0;
+    }
+
+    .choice .wrapper-benefits {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .choice h2 {
+        font-size: 42px;
+        margin-bottom: 50px;
+    }
+
+    .choice .benefit {
+        margin-bottom: 30px;
+    }
+
+    .choice .benefit h4 {
+        margin: 12px 0;
+    }
+
+    .portfolio {
+        padding-bottom: 50px;
+    }
+
+    .portfolio h2 {
+        font-size: 42px;
+    }
+
+    .portfolio img {
+        max-width: calc(100% - 10px);
+        height: auto;
+    }
+
+    .worldwide .container {
+        padding: 50px 10px;
+    }
+
+    .worldwide h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .worldwide .wrapper-additions {
+        flex-wrap: wrap;
+    }
+
+    .worldwide .additions {
+        padding: 20px;
+    }
+
+    .worldwide .wrapper-additions p {
+        font-size: 20px;
+    }
+
+    .prices {
+        padding-top: 50px;
+    }
+
+    .prices h2 {
+        font-size: 42px;
+        margin-bottom: 50px;
+    }
+
+    .prices .cards {
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+
+    .prices .card ul li {
+        padding-left: 32px;
+    }
+
+    .support {
+        flex-wrap: wrap;
+        padding: 50px 10px;
+    }
+
+    .support h4 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .support button {
+        width: calc(100% - 10px);
+    }
+
+    .blog {
+        padding: 50px 0;
+    }
+
+    .blog h2 {
+        font-size: 42px;
+    }
+
+    footer {
+        margin: 0;
+        height: 80px;
+    }
+}

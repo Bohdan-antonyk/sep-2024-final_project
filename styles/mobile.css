@@ -1,0 +1,141 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .main {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .main .mobile-photo {
+        display: block;
+        margin: 20px auto;
+        width: calc(100% - 20px);
+    }
+
+    .main .full-screen-photo {
+        display: none;
+    }
+
+    .main .wrapper-social_media {
+        justify-content: center;
+    }
+
+    .main .wrapper-buttons {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+
+    .main .send_request {
+        width: calc(100% - 50px);
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+
+    .main .download_cv {
+        width: calc(100% - 50px);
+    }
+
+    .success {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-right: 32px;
+    }
+
+    .success .left-side-success img {
+        max-width: 360px;
+        display: block;
+    }
+
+    .success .left-side-success {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .success .right-side-success {
+        text-align: center;
+    }
+
+    .success .right-side-success h3 {
+        font-size: 60px;
+    }
+
+    .success .right-side-success h4 {
+        font-size: 42px;
+    }
+
+    .success .right-side-success p {
+        font-size: 20px;
+    }
+
+    .choice .wrapper-benefits {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .choice .benefit h4 {
+        margin: 20px 0;
+    }
+
+    .worldwide .container {
+        padding-bottom: 80px;
+    }
+
+    .portfolio h2 {
+        text-align: center;
+    }
+
+    .worldwide h2 {
+        margin-bottom: 80px;
+        font-size: 40px;
+    }
+
+    .worldwide .wrapper-additions {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .worldwide .additions p {
+        font-size: 20px;
+    }
+
+    .prices .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .support {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 30px;
+    }
+
+    .support h4 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 36px;
+    }
+
+    .support button {
+        width: calc(100% - 50px);
+    }
+
+    .blog {
+        padding: 80px 0;
+    }
+
+    .blog h2 {
+        text-align: center;
+    }
+
+    footer {
+        margin: 0;
+        height: 120px;
+    }
+}
